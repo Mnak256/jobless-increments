@@ -83,6 +83,14 @@ void theRecursionOne(int i)
 		theRecursionOne(i + 1);
 }
 
+void theShiftyOne() {
+	int i = 0;
+    	i++;
+    	i <<= 2;
+    	i++;
+    	printf("The value of i : %d\n", i);
+}
+
 int main()
 {
 	theNormalOne();
